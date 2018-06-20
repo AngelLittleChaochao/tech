@@ -1,0 +1,7 @@
+* TODO nginx async IO vs libuv
+* TODO tty/ssh
+* TODO protocol buffers
+* TODO sqlite
+  why sqlite is so simple? What's the different design? What's the difficult part for database?
+
+
