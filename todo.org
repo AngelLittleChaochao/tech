@@ -5,3 +5,4 @@
   why sqlite is so simple? What's the different design? What's the difficult part for database?
 * TODO coroutine
 * TODO D3
+* TODO how to set neural network
