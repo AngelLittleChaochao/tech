@@ -45,7 +45,6 @@ x : a real-valued vector.
 It maps the value to (0, 1) 
 
 $$ {\displaystyle S(t)={\frac {1}{1+e^{-t}}}} $$
-
 ![sigmoid](./sigmoid.png)
 
 ## tanh
@@ -53,6 +52,7 @@ $$ {\displaystyle S(t)={\frac {1}{1+e^{-t}}}} $$
 It maps the value to (-1, 1) 
 
 $$ {\displaystyle tanh = \frac{e^u - e^{-u}}{e^u + e^{-u}}} $$
+
 ![tanh](./tanh.png)
 
 ## ReLU
@@ -60,8 +60,8 @@ $$ {\displaystyle tanh = \frac{e^u - e^{-u}}{e^u + e^{-u}}} $$
 It mapps values less than 0 to 0.
 
 $$ {\displaystyle f(x)=\max(0,x)} $$ 
-![ReLU](./relu.png)
 
+![ReLU](./relu.png)
 
 # gradient descent
 
