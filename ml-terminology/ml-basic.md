@@ -7,7 +7,9 @@ Cost function is the target we optimise. In the concept of supervised learning, 
 ## quadratic/MSE
 MSE(mean squared error)
 
-$$ MSE = \frac{1}{2m}\,\sum_{i=1}^{m}(h_{\theta}(x^{(i)}) - y^{i})^2 $$
+[comment]: $$ MSE = \frac{1}{2m}\,\sum_{i=1}^{m}(h_{\theta}(x^{(i)}) - y^{i})^2 $$
+
+![MSE](./formula-mse.png)
 
 m: number of training example.
 
@@ -21,7 +23,8 @@ $ h_{\theta}(x^{(i)}) $ : the predicted value for ith training example.
 
 [cross-entropy wiki](https://en.wikipedia.org/wiki/Cross_entropy)
 
-$$ H(p,q)=-\sum _{x}p(x)\,\log q(x).\! $$
+[comment]: $$ H(p,q)=-\sum _{x}p(x)\,\log q(x).\! $$
+![cross-entropy](./formula-entropy.png)
 
 # neurons
 
@@ -31,23 +34,28 @@ Neurons is the basic unit in NN, it simulate the human's neural system. In human
 
 It maps its input to 0 or 1.
 
-$$ {\displaystyle f(x)={\begin{cases}1&{\text{if }}\ \mathbf {w} \cdot \mathbf {x} +b>0\\0&{\text{otherwise}}\end{cases}}} $$
+[comment]: $$ {\displaystyle f(x)={\begin{cases}1&{\text{if }}\ \mathbf {w} \cdot \mathbf {x} +b>0\\0&{\text{otherwise}}\end{cases}}} $$
+![perceptron](formula-perceptron.png)
 
 w : a vector of real-valued weights.
+
 x : a real-valued vector.
 
 ## sigmoid
 
 It maps the value to (0, 1) 
 
-$$ {\displaystyle S(t)={\frac {1}{1+e^{-t}}}} $$
+[comment]: $$ {\displaystyle S(t)={\frac {1}{1+e^{-t}}}} $$
+![sigmoid](./formula-sigmoid.png)
+
 ![sigmoid](./sigmoid.png)
 
 ## tanh
 
 It maps the value to (-1, 1) 
 
-$$ {\displaystyle tanh = \frac{e^u - e^{-u}}{e^u + e^{-u}}} $$
+[comment]: $$ {\displaystyle tanh = \frac{e^u - e^{-u}}{e^u + e^{-u}}} $$
+![tanh](./formula-tanh.png)
 
 ![tanh](./tanh.png)
 
@@ -55,7 +63,8 @@ $$ {\displaystyle tanh = \frac{e^u - e^{-u}}{e^u + e^{-u}}} $$
 
 It mapps values less than 0 to 0.
 
-$$ {\displaystyle f(x)=\max(0,x)} $$ 
+[comment]:$$ {\displaystyle f(x)=\max(0,x)} $$ 
+![ReLU](./formula-relu.png)
 
 ![ReLU](./relu.png)
 
