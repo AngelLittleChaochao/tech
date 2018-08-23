@@ -72,8 +72,14 @@ Gradient descent is a very useful method, we use it to find the optimal or local
 ## second-order(Adam)
 
 # reduce overfitting
-* L1/L2 reg.
-* dropout
+
+In machine learning, overfitting is a common problem. We don't want the algorithm only performs good in training data, we want it to have the extensibility on new datasets. If the algorithm learns very well on the training dataset, it may lose the extensibility on unknown data. There are some methods to reduce the overfitting.
+
+## L1/L2 reg.
+## dropout
+
+Dropout especially used in neural network, it is to randomly drop out some units. For more detailed explanition, please reference the [blog in medium](https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5).
+
 * expand data
 
 # initiatization
