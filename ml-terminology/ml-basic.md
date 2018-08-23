@@ -1,8 +1,4 @@
-
-
-
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 
 # cost functions
 
@@ -11,7 +7,7 @@ Cost function is the target we optimise. In the concept of supervised learning, 
 ## quadratic/MSE
 MSE(mean squared error)
 
-$$ MSE = \frac{1}{2m}\,\sum_{i=1}^{m}(h_{\theta}(x^{(i)}) - y^{(i)})^2 $$
+$$ MSE = \frac{1}{2m}\,\sum_{i=1}^{m}(h_{\theta}(x^{(i)}) - y^{i})^2 $$
 
 m: number of training example.
 
